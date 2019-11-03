@@ -13,5 +13,9 @@
 <body>
 <h1>결제완료</h1>
 <input type="submit" class="razo razo-btn" id="btn" name="btn" onclick="self.close();" value="확인">
+<script>
+    opener.location.reload();
+    window.close();
+</script>
 </body>
 </html>
